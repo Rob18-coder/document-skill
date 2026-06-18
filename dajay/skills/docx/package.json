@@ -1,0 +1,14 @@
+{
+  "name": "dajay-docx-skill",
+  "version": "1.0.0",
+  "description": "Node.js docx generation skill for DAJAY",
+  "main": "generate.js",
+  "scripts": {
+    "generate": "node generate.js"
+  },
+  "dependencies": {
+    "docx": "^8.5.0",
+    "yargs": "^17.7.2"
+  },
+  "type": "module"
+}

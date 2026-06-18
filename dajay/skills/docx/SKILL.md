@@ -1,22 +1,21 @@
-# docx — Word Document Generation Skill
+# docx — Word Document Generation Skill (Node.js)
 
-Generate `.docx` (Word Open XML) documents programmatically using `python-docx`.
+Generate `.docx` (Word Open XML) documents programmatically using the [`docx`](https://www.npmjs.com/package/docx) npm package.
 
 ## Capabilities
 
 | Feature | Description |
 |---------|-------------|
-| **Headers / Footers** | Add title, section headers (H1–H3), and page footers |
-| **Paragraphs** | Body text with configurable font, size, bold, italic, color, alignment |
-| **Tables** | Create tables with headers, merged cells, borders, and styling |
-| **Lists** | Bulleted and numbered lists |
-| **Images** | Embed images (local or URLs) with size and alignment control |
-| **Page Layout** | Page breaks, margins, orientation (portrait/landscape), page numbers |
-| **Styles** | Apply built-in or custom styles; consistent formatting throughout |
+| **Headings** | H1–H6 with configurable formatting |
+| **Paragraphs** | Body text with font, size, bold, italic, color, alignment, line spacing |
+| **Tables** | Create tables with headers, cell styling, percentage widths |
+| **Lists** | Bulleted and numbered lists with indentation |
+| **Page Layout** | Page breaks, margins (inches), orientation (portrait/landscape) |
+| **Numbering** | Auto-numbered headings and list styles |
 
 ## Parameters
 
-When invoking this skill, provide a JSON specification with this structure:
+Provide a JSON specification file:
 
 ```json
 {
@@ -25,11 +24,11 @@ When invoking this skill, provide a JSON specification with this structure:
     "orientation": "portrait|landscape",
     "margins": { "top": 1.0, "bottom": 1.0, "left": 1.0, "right": 1.0 },
     "sections": [
-      {
-        "type": "heading|paragraph|table|list|image|page_break",
-        "content": "...",
-        "formatting": { "bold": false, "italic": false, "size": 12, "color": "000000", "alignment": "left|center|right" }
-      }
+      { "type": "heading", "content": "Title", "level": 1, "formatting": { "bold": true, "size": 24, "color": "2F5496", "alignment": "center" } },
+      { "type": "paragraph", "content": "Body text here.", "formatting": { "size": 11, "alignment": "justify" } },
+      { "type": "table", "data": [["Name", "Value"], ["A", "1"], ["B", "2"]], "header": true },
+      { "type": "list", "items": ["Item one", "Item two"], "ordered": false },
+      { "type": "page_break" }
     ]
   }
 }
@@ -37,12 +36,21 @@ When invoking this skill, provide a JSON specification with this structure:
 
 ## Dependencies
 
-- Python 3.8+
-- `python-docx` library (`pip install python-docx`)
-- `docx` CLI tool at `dajay/skills/docx/generate.py`
+- Node.js 18+
+- npm packages: `docx`, `yargs`
+
+Install:
+```bash
+cd dajay/skills/docx && npm install
+```
 
 ## Usage
 
+```bash
+node dajay/skills/docx/generate.js --spec spec.json
 ```
-python dajay/skills/docx/generate.py --spec spec.json
+
+Or via npm script:
+```bash
+cd dajay/skills/docx && npm run generate -- --spec spec.json
 ```
