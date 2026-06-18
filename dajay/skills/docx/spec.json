@@ -1,0 +1,85 @@
+{
+  "output_path": "philippine_folklore_story.docx",
+  "document": {
+    "orientation": "portrait",
+    "margins": { "top": 1.0, "bottom": 1.0, "left": 1.0, "right": 1.0 },
+    "sections": [
+      {
+        "type": "heading",
+        "content": "The Firefly and the Bakunawa",
+        "level": 1,
+        "formatting": { "bold": true, "size": 26, "color": "2F5496", "alignment": "center" }
+      },
+      {
+        "type": "heading",
+        "content": "A Philippine Folktale",
+        "level": 2,
+        "formatting": { "italic": true, "size": 16, "color": "555555", "alignment": "center" }
+      },
+      {
+        "type": "paragraph",
+        "content": "Long ago, when the world was still young and the moon shone brighter than it does today, there lived a tiny firefly named Alitaptap. She was no larger than a grain of rice, but her light burned with a fierce golden glow that could pierce the darkest night.",
+        "formatting": { "size": 11, "alignment": "justify", "space_after": 120 }
+      },
+      {
+        "type": "paragraph",
+        "content": "In those days, the great serpent Bakunawa ruled the seas. He was a creature of immense size, his scales shimmering like black obsidian, his eyes burning like twin coals. The Bakunawa had a terrible hunger — he loved to swallow the moon whole, plunging the world into darkness so he could hunt unseen.",
+        "formatting": { "size": 11, "alignment": "justify", "space_after": 120 }
+      },
+      {
+        "type": "paragraph",
+        "content": "Each month, the people would gather with their bamboo cannons and brass gongs, beating them furiously to scare the Bakunawa into spitting out the moon. The noise would shake the heavens, and the great serpent, annoyed by the clamor, would release the moon and retreat to the ocean depths.",
+        "formatting": { "size": 11, "alignment": "justify", "space_after": 120 }
+      },
+      {
+        "type": "paragraph",
+        "content": "But one night, the people grew tired. Their arms ached from beating the gongs, their throats were raw from shouting. They fell silent, and the Bakunawa, sensing their weakness, rose from the waves and swallowed the moon without resistance. Darkness blanketed the islands.",
+        "formatting": { "size": 11, "alignment": "justify", "space_after": 120 }
+      },
+      {
+        "type": "paragraph",
+        "content": "Alitaptap watched from her perch on a mangrove branch. She saw the fear in the children's eyes, heard the whispered prayers of the elders. Though small, her heart was vast. She flew upward, higher than any firefly had ever flown, toward the belly of the great serpent where the moon glowed faintly.",
+        "formatting": { "size": 11, "alignment": "justify", "space_after": 120 }
+      },
+      {
+        "type": "paragraph",
+        "content": "Inside the Bakunawa's throat, Alitaptap found the moon — pale and trembling. She gathered all her light, every spark of her tiny life, and burned brighter than she ever had before. The golden glow pierced the serpent's darkness, a needle of light in a cavern of shadow.",
+        "formatting": { "size": 11, "alignment": "justify", "space_after": 120 }
+      },
+      {
+        "type": "paragraph",
+        "content": "The Bakunawa, unaccustomed to light within his own body, thrashed in confusion. He had never known pain, only hunger. This small, persistent glow felt like a thorn in his throat. He coughed, heaved, and with a great retch, expelled both the moon and the firefly into the night sky.",
+        "formatting": { "size": 11, "alignment": "justify", "space_after": 120 }
+      },
+      {
+        "type": "paragraph",
+        "content": "The moon returned to its place, bathing the islands in silver light. The people rejoiced, but they did not see Alitaptap fall, her light spent, her tiny body spent upon the sands. Where she landed, a strange plant grew — the first alitaptap flower, its petals glowing faintly at night, a reminder that even the smallest light can drive away the greatest darkness.",
+        "formatting": { "size": 11, "alignment": "justify", "space_after": 120 }
+      },
+      {
+        "type": "paragraph",
+        "content": "To this day, when fireflies dance in the mangroves at dusk, the old ones say: \"There goes Alitaptap, still watching, still guarding the moon.\" And the Bakunawa, they say, never again swallowed the moon whole — for he remembers the firefly who burned brighter than fear.",
+        "formatting": { "size": 11, "alignment": "justify", "space_after": 120 }
+      },
+      {
+        "type": "page_break"
+      },
+      {
+        "type": "heading",
+        "content": "Notes on the Tale",
+        "level": 2,
+        "formatting": { "bold": true, "size": 18, "color": "2F5496" }
+      },
+      {
+        "type": "list",
+        "items": [
+          "The Bakunawa is a serpentine dragon in Visayan mythology, often depicted as a moon-eater",
+          "Alitaptap is the Tagalog word for firefly",
+          "The tradition of banging pots and pans during lunar eclipses persists in some Philippine provinces",
+          "This tale blends Visayan (Bakunawa) and Tagalog (Alitaptap) elements"
+        ],
+        "ordered": false
+      }
+    ]
+  }
+}
