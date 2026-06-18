@@ -1,0 +1,37 @@
+# Node.js dependencies
+dajay/skills/docx/node_modules/
+
+# Build outputs
+dajay/skills/docx/*.docx
+dajay/skills/docx/test_output.docx
+dajay/skills/docx/philippine_folklore_story.docx
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python cache (from original skill)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Test files
+test_api.js
